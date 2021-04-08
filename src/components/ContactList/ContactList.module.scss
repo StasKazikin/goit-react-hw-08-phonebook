@@ -1,0 +1,27 @@
+.list {
+  padding-left: 30px;
+
+  .item {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+
+    span {
+      margin-right: 20px;
+    }
+
+    .button {
+      padding: 5px 15px 3px 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: #fff;
+      &:focus {
+        background-color: rgb(17, 97, 201);
+        outline: none;
+      }
+    }
+  }
+}

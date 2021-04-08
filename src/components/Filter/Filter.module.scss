@@ -1,0 +1,19 @@
+.label {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  height: 40px;
+}
+
+.input {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+
+  &:focus {
+    border: 3px solid rgba(196, 225, 252, 0.616);
+    box-shadow: 0px 0px 3px 3px rgba(141, 196, 248, 0.459);
+    outline: none;
+  }
+}
