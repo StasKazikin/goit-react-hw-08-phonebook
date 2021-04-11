@@ -22,7 +22,7 @@ const UserMenu = ({ avatar, name, onLogout }) => (
     <img src={avatar} alt="" width="32" style={styles.avatar} />
     <span style={styles.name}>Welcome, {name}</span>
     <button type="button" onClick={onLogout}>
-      Logout
+      Выйти
     </button>
   </div>
 );
