@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Container/Container.scss"],"names":[],"mappings":"AAAA,WACE,gBAAA,CACA,gBAAA,CACA,iBAAA,CACA,iBAAA,CACA,kBAAA","file":"main.c7a048df.chunk.css","sourcesContent":[".Container {\r\n  max-width: 1440px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  padding-left: 15px;\r\n  padding-right: 15px;\r\n}\r\n"]}
